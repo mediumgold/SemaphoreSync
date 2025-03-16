@@ -24,6 +24,8 @@ public class Driver {
      objServer1.start();
      Server objServer2 = new Server("Thread2");        
      objServer2.start();
+     Server objServer3 = new Server("Thread3");
+     objServer3.start();
      Client client1 = new Client("sending");
      client1.start();
      Client client2 = new Client("receiving");
